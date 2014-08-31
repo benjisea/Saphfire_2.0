@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#nav {
+	float:left;
+	background-color:white;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+	left:0px;
+	width:100%;
+	list-style-type:none;
+	padding:0;
+	height:90px;
+	-webkit-box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.45);
+	-moz-box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.45);
+	box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.45);
+
+}
+.wrapper {
+	margin:0 auto;
+	width:960px;
+
+} /*3.762:1*/
+.brand {
+	margin-right:10px;
+	display:block;
+	float:left;
+	padding:6px;
+}
+.brand img {
+}
+#nav ul li {
+	float:left;
+    background-color: white;
+    color:#222222;
+    height:90px;/*go to the nav bar height and change it so it matches the height*/
+	
+}
+#nav li a {
+	display:block;
+	text-decoration:none;
+	font-family:LeagueGothic-Regular;
+    src: url(LeagueGothic-Regular.otf);
+    font-size:30px;
+    padding: 6px;
+    margin-top:25px; /*changing this readjusts it making it align to the logo.png, use if you change the font-size*/
+    margin-right:15px;
+    margin-left:15px;
+    color:#222222;
+    float:left;
+}
+/*
+ #nav ul li a:hover, #nav li:hover {
+	color:white;
+	transition: color .3s ease;
+	background-color:#14608E;
+}
+*/
+
+
+#nav .highlighted {
+	color:white;
+	background-color:#14608E;
+}
+#header {
+	margin-top:80px;
+}
+
+#content {
+	width:550px;
+	float:left;
+	margin:0 auto;
+	margin-top:20;
+	text-align:left;
+	padding:14px 28px;
+}
+h2, h3 {
+	src: url(LeagueGothic-Regular.otf);
+	font-family:'LeagueGothic-Regular';
+}
+#content h2, #content h3 {
+	 color:#201F1F;
+}
+.post-header h2 {
+	color:#201f1f;
+}
+ #content h4 {
+ 	src: url(MYRIADPRO-REGULAR.otf);
+ 	font-family:'MYRIADPRO-REGULAR';
+ 	font-size:18px;
+ 	color:#201F1F;
+ }
+ #content h2, #content h4 {
+ 	padding:4px;
+ }
+ #content img {
+ }
+h2 {
+	font-size:36px;
+}
+h3 {
+	font-size:24px;
+}
+p {
+	src: url(MYRIADPRO-REGULAR.otf);
+ 	font-family:'MYRIADPRO-REGULAR';
+ 	font-size:14px;
+ 	line-height: 18px;
+ 	width:380px;
+}
+#content h3 {
+	margin-top:25px;
+
+}
+
+#sidebar {
+	background-color:#14608E;
+	background-image:url('../img/sidebar.jpg');
+	width:235px;
+	height:900px;
+	margin-left:119px;
+	float:right;
+	right:0;
+	position:relative;
+	color:#EFEFEF;
+	margin-top:20px; /*same as content*/
+}
+#sidebar p {
+	font-size:15px;
+	width:150px;
+	float:left;
+	padding:10px 25px 10px;
+}
+#sidebar h2 {
+	padding:25px 25px 10px;
+	float:left;
+}
+#sidebar img {
+	float:left;
+	margin:10px 10px 10px 15px;
+}
+#sidebar #about {
+	margin-bottom:30px;
+}
+#categories {
+	float:left;
+}
+#sidebar ul li {
+	font-size:20px;
+	line-height:20px;
+	padding:10px 30px 10px;
+	src: url(MYRIADPRO-REGULAR.otf);
+ 	font-family:'MYRIADPRO-REGULAR';
+ 	text-decoration:underline;
+}
+#sidebar ul li a {
+
+}
